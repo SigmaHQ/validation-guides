@@ -1,0 +1,14 @@
+title: Renamed Powershell Under Powershell Channel
+id: 30a8cb77-8eb3-4cfb-8e79-ad457c5a4592
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 400
+  Channel: Windows PowerShell (%SystemRoot%\System32\Winevt\Logs\Windows PowerShell.evtx)
+audit: |
+  This log is activated by default
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

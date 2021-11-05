@@ -1,0 +1,14 @@
+title: Suspicious PowerShell Download
+id: 3236fcd0-b7e3-4433-b4f8-86ad61a9af2d
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 400
+  Channel: Windows PowerShell (%SystemRoot%\System32\Winevt\Logs\Windows PowerShell.evtx)
+audit: |
+  This log is activated by default
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information
