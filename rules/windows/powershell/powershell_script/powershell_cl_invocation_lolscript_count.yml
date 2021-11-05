@@ -1,0 +1,17 @@
+title: Execution via CL_Invocation.ps1 (2 Lines)
+id: f588e69b-0750-46bb-8f87-0e9320d57536
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 4104
+  Channel: Microsoft-Windows-PowerShell/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx)
+audit: |
+  To enable script block logging, go to the Windows PowerShell GPO settings and set Turn on `PowerShell Script Block Logging to enabled.
+
+  Alternately, you can set the following registry value:
+  `HKLM\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging → EnableScriptBlockLogging = 1`
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

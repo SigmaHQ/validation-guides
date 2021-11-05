@@ -1,0 +1,17 @@
+title: Suspicious Export-PfxCertificate
+id: aa7a3fce-bef5-4311-9cc1-5f04bb8c308c
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 4104
+  Channel: Microsoft-Windows-PowerShell/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx)
+audit: |
+  To enable script block logging, go to the Windows PowerShell GPO settings and set Turn on `PowerShell Script Block Logging to enabled.
+
+  Alternately, you can set the following registry value:
+  `HKLM\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging → EnableScriptBlockLogging = 1`
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information
