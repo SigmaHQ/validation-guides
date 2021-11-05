@@ -1,0 +1,14 @@
+title: PowerShell Downgrade Attack
+id: 6331d09b-4785-4c13-980f-f96661356249
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 400
+  Channel: Windows PowerShell (%SystemRoot%\System32\Winevt\Logs\Windows PowerShell.evtx)
+audit: |
+  This log is activated by default
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

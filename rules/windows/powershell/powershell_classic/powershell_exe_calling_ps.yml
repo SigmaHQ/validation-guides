@@ -1,0 +1,14 @@
+title: PowerShell Called from an Executable Version Mismatch
+id: c70e019b-1479-4b65-b0cc-cd0c6093a599
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 400
+  Channel: Windows PowerShell (%SystemRoot%\System32\Winevt\Logs\Windows PowerShell.evtx)
+audit: |
+  This log is activated by default
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

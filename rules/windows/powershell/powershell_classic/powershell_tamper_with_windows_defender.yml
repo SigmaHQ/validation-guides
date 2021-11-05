@@ -1,0 +1,14 @@
+title: Tamper Windows Defender
+id: ec19ebab-72dc-40e1-9728-4c0b805d722c
+authors:
+  - Frack113
+history:
+  - '20211105: creation of the file'
+source: |
+  EventID: 600
+  Channel: Windows PowerShell (%SystemRoot%\System32\Winevt\Logs\Windows PowerShell.evtx)
+audit: |
+  This log is activated by default
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information
