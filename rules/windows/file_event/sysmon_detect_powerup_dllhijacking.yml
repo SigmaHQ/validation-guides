@@ -1,0 +1,20 @@
+title: Powerup Write Hijack DLL
+id: 602a1f13-c640-4d73-b053-be9a2fa58b96
+authors:
+  - frack113
+history:
+  - '20211109: creation of the file'
+source: |
+  * sysmon
+  EventID: 11
+  Channel: Microsoft-Windows-Sysmon/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx)
+audit: |
+  * sysmon
+  Sysmon must be installed on configured.
+  The basic configuration of sysmon configuration can be found on :
+      - https://github.com/SwiftOnSecurity/sysmon-config
+      - https://github.com/Neo23x0/sysmon-config
+      - https://github.com/olafhartong/sysmon-modular
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

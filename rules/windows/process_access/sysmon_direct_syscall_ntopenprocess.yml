@@ -1,0 +1,20 @@
+title: Direct Syscall of NtOpenProcess
+id: 3f3f3506-1895-401b-9cc3-e86b16e630d0
+authors:
+  - frack113
+history:
+  - '20211109: creation of the file'
+source: |
+  * sysmon
+  EventID: 10
+  Channel: Microsoft-Windows-Sysmon/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx)
+audit: |
+  * sysmon
+  Sysmon must be installed on configured.
+  The basic configuration of sysmon configuration can be found on :
+      - https://github.com/SwiftOnSecurity/sysmon-config
+      - https://github.com/Neo23x0/sysmon-config
+      - https://github.com/olafhartong/sysmon-modular
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information
