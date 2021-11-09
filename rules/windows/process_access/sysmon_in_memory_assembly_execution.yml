@@ -1,0 +1,20 @@
+title: Suspicious In-Memory Module Execution
+id: 5f113a8f-8b61-41ca-b90f-d374fa7e4a39
+authors:
+  - frack113
+history:
+  - '20211109: creation of the file'
+source: |
+  * sysmon
+  EventID: 10
+  Channel: Microsoft-Windows-Sysmon/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx)
+audit: |
+  * sysmon
+  Sysmon must be installed on configured.
+  The basic configuration of sysmon configuration can be found on :
+      - https://github.com/SwiftOnSecurity/sysmon-config
+      - https://github.com/Neo23x0/sysmon-config
+      - https://github.com/olafhartong/sysmon-modular
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

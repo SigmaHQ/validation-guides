@@ -1,0 +1,20 @@
+title: Suspicious Encoded Scripts in a WMI Consumer
+id: 83844185-1c5b-45bc-bcf3-b5bf3084ca5b
+authors:
+  - frack113
+history:
+  - '20211109: creation of the file'
+source: |
+  * sysmon
+  EventID: 19,20 or 21
+  Channel: Microsoft-Windows-Sysmon/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx)
+audit: |
+  * sysmon
+  Sysmon must be installed on configured.
+  The basic configuration of sysmon configuration can be found on :
+      - https://github.com/SwiftOnSecurity/sysmon-config
+      - https://github.com/Neo23x0/sysmon-config
+      - https://github.com/olafhartong/sysmon-modular
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information

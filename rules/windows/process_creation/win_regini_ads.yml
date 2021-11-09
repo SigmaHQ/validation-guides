@@ -1,0 +1,35 @@
+title: Modifies the Registry From a ADS
+id: 77946e79-97f1-45a2-84b4-f37b5c0d8682
+authors:
+  - frack113
+history:
+  - '20211109: creation of the file'
+source: |
+  * sysmon
+  EventID: 1
+  Channel: Microsoft-Windows-Sysmon/Operational (%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx)
+
+  * windows build-in
+  EventID: 4688
+  Channel: Security (%SystemRoot%\System32\Winevt\Logs\Security.evtx)
+audit: |
+  * sysmon
+  Sysmon must be installed on configured.
+  The basic configuration of sysmon configuration can be found on :
+      - https://github.com/SwiftOnSecurity/sysmon-config
+      - https://github.com/Neo23x0/sysmon-config
+      - https://github.com/olafhartong/sysmon-modular
+
+  * build-in
+  You must enable the Audit Process Creation audit policy so that 4688 events are generated.
+  You can enable this audit policy from the following Group Policy Object (GPO) container: 
+  `Computer Configuration\Windows Settings\Security Settings\Advanced Audit Policy Configuration\System Audit Policies\Detailed Tracking`.
+
+  You must enable the Include command line in process creation events GPO setting.
+  You can find this setting in the following GPO container:
+  `Computer Configuration\Administrative Templates\System\Audit Process Creation`.
+  Alternatively, you can enable this setting in the local system registry by setting the 
+  `HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\Audit\ProcessCreationIncludeCmdLine_Enabled = 1`
+description: Contribute to the updating of information
+code: Contribute to the updating of information
+example: Contribute to the updating of information
